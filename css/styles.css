@@ -9,12 +9,14 @@ a {
 	transition: .5s;
 }
 
+/*Sidebar */
+
 #sidebar {
 	position: fixed;
 	height: 100%;
-	width: 300%;
+	width: 300px;
 	background-color: #006599;
-	padding-top: 40%;
+	padding-top: 40px;
 }
 
 #sidebar h1 {
@@ -58,6 +60,8 @@ a {
 	margin-right: auto;
 }
 
+/*content */
+
 .content {
 	position: absolute;
 	left: 300px;
@@ -81,9 +85,11 @@ font-size: 35px;
 }
 
 section {
-	padding-left: 50px;
+	padding-left: 40px;
 
 }
+
+/* bem vindo */
 
 #sessao-bemvindo {
 	padding-left: 0;
@@ -116,4 +122,120 @@ section {
 	clear: both;
 	margin-bottom: 100px;
 
+}
+
+.sessao-minibanner {
+	width: 300px;
+	height: 400px;
+	background: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.sessao-descricao {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.sessao-descricao p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.sessao-bemvindo-btn, form input[type=submit] {
+	background-color: #006599;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.sessao-bemvindo-btn:hover, form input[type=submit]:hover {
+	background-color: #2790c6;
+
+}
+
+/* sessao sobre */
+
+#sessao-sobre .sessao-minibanner {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/banner4.jpg');
+}
+
+#sessao-sobre .sessao-descricao {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
+
+
+
+.banner-galeria {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 200px;
+}
+
+#sessao-doces1, #sessao-doces2, #sessao-doces3 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.doces1-imgs {
+	width: 18.8%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('../img/galeria1.jpg');
+	margin-left: 0;
+
+}
+
+#img2 {
+	background-image: url('../img/galeria2.jpg');
+}
+
+#img3 {
+	background-image: url('../img/galeria3.jpg');
+}
+
+#img4 {
+	background-image: url('../img/galeria4.jpg');
+}
+
+#img5 {
+	background-image: url('../img/galeria5.jpg');
+	margin-right: 0;
+}
+
+.doces2-imgs {
+width: 32.3%;
+margin-left: .5%;
+margin-right: .5%;
+
+}
+
+#img6 {
+	background-image: url('../img/galeria6.jpg');
+}
+
+#img7 {
+	background-image: url('../img/galeria7.jpg');
+}
+
+#img8 {
+	background-image: url('../img/galeria8.jpg');
 }
